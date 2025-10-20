@@ -65,7 +65,7 @@ void loop() {
 
       // Display group (truncated to fit LCD)
       lcd.setCursor(0, 0);
-      for (size_t j = 0; j < group_len && j < LCD_SIZE; j++) {
+      for (size_t j = 0; j < group_len && j < 16; j++) {
         lcd.print(message[start + j]);
       }
 
