@@ -1,0 +1,87 @@
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+.platformio
+platformio.ini.bak
+
+# Build directories
+build/
+dist/
+
+# IDE files
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+.vscode/.ropeproject
+.vscode/sftp.json
+.vscode/arduino.json
+
+# Arduino IDE
+*.ino.bak
+*.ino.orig
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+
+# Cache
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compile commands (can be regenerated)
+compile_commands.json
